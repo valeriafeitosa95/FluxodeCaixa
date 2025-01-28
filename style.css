@@ -1,0 +1,87 @@
+*{margin: 0; padding: 0;}
+
+/* HEADER */
+.stAppHeader{
+    background-color: #9E0000;
+}
+
+.stAppToolbar{
+    visibility: hidden;
+}
+
+/* SIDEBAR */
+.stSidebar{
+    background-color: #C00000 ;
+}
+
+.stRadio{
+    margin-bottom: 20px;
+}
+
+.stRadio p{
+    font-size: 15px;
+}
+
+/* MAIN */
+.stApp{
+    background-color: #9E0000;
+} 
+
+#fluxo-de-caixa{
+    font-size: 50px;
+    text-shadow: 0px 0px 5px tan;
+}
+
+.Tvisual{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 0px 2px tan;
+    margin-right: 75px;
+    margin-left: 60PX;
+}
+.visual{
+    display: inline-flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 250px;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px tan;
+    padding: 8px 0px 8px 25px ;
+    margin: 8px;
+}
+
+.stHorizontalBlock .st-emotion-cache-qcpnpn{
+    border: 1px solid wheat;
+}
+.stMetric p strong{
+    font-size: 15px;
+}
+
+.tooltip {
+    position: relative;
+  }
+
+  .icon{
+    font-size: 20px;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 230px;
+    background-color: rgb(231, 70, 70);
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
