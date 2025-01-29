@@ -99,7 +99,7 @@ st.write(' ')
 col5, col6 = st.columns(2)
 with col5:
     fig = px.bar(Class, color_discrete_sequence=px.colors.diverging.Picnic_r, text_auto=True)
-    fig.update_layout(title_text = 'Entradas', titlefont={'family':'Arial','size': 20, 'color': 'white'}, title_xref='paper')
+    fig.update_layout(title_text = 'Entradas')
     fig.update_layout(font={'family':'Arial','size': 14, 'color': 'white'}, separators=".,", showlegend = False)
     fig.update_layout(paper_bgcolor='#9E0000', plot_bgcolor='#9E0000')
     fig.update_yaxes(visible=False)
@@ -108,7 +108,7 @@ with col5:
     st.plotly_chart(fig, use_container_width=True)
 with col6:  
     fig = px.bar(Class_, color_discrete_sequence=px.colors.diverging.Picnic_r, text_auto=True)
-    fig.update_layout(title_text = 'Saídas', titlefont={'family':'Arial','size': 20, 'color': 'white'}, title_xref='paper')
+    fig.update_layout(title_text = 'Saídas', title_xref='paper')
     fig.update_layout(font={'family':'Arial','size': 14, 'color': 'white'}, separators=".,", showlegend = False)
     fig.update_layout(paper_bgcolor='#9E0000', plot_bgcolor='#9E0000')
     fig.update_yaxes(visible=False)
@@ -138,7 +138,7 @@ st.html('<div class="tooltip"><div class="icon">🛈</div><span class="tooltipte
 
 # Gráfico de linha que mostrará o valores de todos os locais e centro de custos em todos os anos
 fig = px.line(dfano, x='Ano', y=['Entradas', 'Saídas'], markers= True, color_discrete_sequence=px.colors.diverging.Picnic_r)
-fig.update_layout(title_text = 'Entradas x Saídas por Ano', titlefont={'family':'Arial','size': 20, 'color': 'white'}, title_xref='paper')
+fig.update_layout(title_text = 'Entradas x Saídas por Ano', title_xref='paper')
 fig.update_layout(font={'family':'Arial','size': 14, 'color': 'white'}, separators=".,", autotypenumbers='strict')
 fig.update_layout(yaxis = dict (showgrid = True, gridcolor='grey'), paper_bgcolor='#9E0000', plot_bgcolor='#9E0000')
 fig.update_layout(showlegend = True, legend_title=' ')
