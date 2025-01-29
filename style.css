@@ -1,10 +1,6 @@
 *{margin: 0; padding: 0;}
 
 /* HEADER */
-body{
-    color: white;
-}
-
 .stAppHeader{
     background-color: #9E0000;
     color: white;
@@ -22,10 +18,12 @@ body{
 
 .stRadio{
     margin-bottom: 20px;
+    color: white;
 }
 
 .stRadio p{
     font-size: 15px;
+    color: white;
 }
 
 /* MAIN */
@@ -62,9 +60,20 @@ body{
 
 .stHorizontalBlock .st-emotion-cache-qcpnpn{
     border: 1px solid wheat;
+    color: white;
 }
+
 .stMetric p strong{
     font-size: 15px;
+    color: white;
+}
+
+.stHorizontalBlock .st-emotion-cache-ocqkz7 .eiemyj0{
+    color: white;
+}
+
+.stElementContainer .element-container .st-emotion-cache-3qlbct .eiemyj1{
+    color: white;
 }
 
 .tooltip {
