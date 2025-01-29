@@ -1,8 +1,13 @@
 *{margin: 0; padding: 0;}
 
 /* HEADER */
+body{
+    color: white;
+}
+
 .stAppHeader{
     background-color: #9E0000;
+    color: white;
 }
 
 .stAppToolbar{
@@ -12,6 +17,7 @@
 /* SIDEBAR */
 .stSidebar{
     background-color: #C00000 ;
+    color: white;
 }
 
 .stRadio{
@@ -25,6 +31,7 @@
 /* MAIN */
 .stApp{
     background-color: #9E0000;
+    color: white;
 } 
 
 #fluxo-de-caixa{
