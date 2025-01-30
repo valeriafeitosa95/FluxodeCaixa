@@ -57,7 +57,7 @@
     margin: 8px;
 }
 
-.stHorizontalBlock .st-emotion-cache-qcpnpn{
+.stVerticalBlock .st-emotion-cache-bzii9n .eiemyj3{
     border: 1px solid white;
 }
 
@@ -70,7 +70,7 @@
     color: white;
 }
 
-.infolayer text {
+.infolayer > text {
     color: white;
 }
 
@@ -78,11 +78,11 @@
     color: white;
 }
 
-g .xaxislayer-above, .yaxislayer-above{
+g .xaxislayer-above, g .yaxislayer-above{
     color: white;
 }
 
-g .legend text .legendtext{
+g .legend > text .legendtext{
     color: white;
 }
 
