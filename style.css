@@ -21,7 +21,7 @@
 }
 
 .stRadio p{
-    font-size: 12px;
+    font-size: 14px;
     color: white;
 }
 
@@ -41,15 +41,15 @@
     font-weight: 600;
     color: white;
     text-shadow: 0px 0px 2px tan;
-    margin-right: 60px;
-    margin-left: 60PX;
+    margin-right: 50px;
+    margin-left: 20PX;
 }
 .visual{
     display: inline-flex;
     justify-content: space-between;
     border: 1px solid white;
     border-radius: 10px;
-    width: 230px;
+    width: 220px;
     font-size: 14px;
     font-weight: 600;
     text-shadow: 0px 0px 5px tan;
@@ -70,7 +70,19 @@
     color: white;
 }
 
-svg .main-svg{
+.infolayer text {
+    color: white;
+}
+
+.main-svg .xaxislayer-above{
+    color: white;
+}
+
+g .xaxislayer-above, .yaxislayer-above{
+    color: white;
+}
+
+g .legend text .legendtext{
     color: white;
 }
 
