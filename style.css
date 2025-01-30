@@ -57,7 +57,7 @@
     margin: 8px;
 }
 
-.stVerticalBlock .st-emotion-cache-bzii9n .eiemyj3{
+.stHorizontalBlock .st-emotion-cache-0 .eiemyj5{
     border: 1px solid white;
 }
 
@@ -70,21 +70,6 @@
     color: white;
 }
 
-.infolayer > text {
-    color: white;
-}
-
-.main-svg .xaxislayer-above{
-    color: white;
-}
-
-g .xaxislayer-above, g .yaxislayer-above{
-    color: white;
-}
-
-g .legend > text .legendtext{
-    color: white;
-}
 
 .tooltip {
     position: relative;
