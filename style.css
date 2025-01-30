@@ -70,6 +70,10 @@
     color: white;
 }
 
+.svg-main .infolayer tspan{
+    color: white;
+}
+
 
 .tooltip {
     position: relative;
