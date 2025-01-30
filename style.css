@@ -21,6 +21,7 @@
 }
 
 .stRadio p{
+    font-size: 12px;
     color: white;
 }
 
@@ -49,7 +50,7 @@
     border: 1px solid white;
     border-radius: 10px;
     width: 230px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     text-shadow: 0px 0px 5px tan;
     padding: 8px 0px 8px 20px ;
@@ -69,11 +70,7 @@
     color: white;
 }
 
-.tspan{
-    color: white;
-}
-
-.js-plotly-plot .plotly,.js-plotly-plot .plotly div{
+svg .main-svg{
     color: white;
 }
 
