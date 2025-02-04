@@ -100,6 +100,7 @@ col5, col6 = st.columns(2)
 with col5:
     fig = px.bar(Class, color_discrete_sequence=px.colors.diverging.Picnic_r, text_auto=True)
     fig.update_layout(title_text = 'Entradas')
+    fig.update_layout(title_font_color='White')
     fig.update_layout(font={'family':'Arial','size': 14, 'color': 'white'}, separators=".,", showlegend = False)
     fig.update_layout(paper_bgcolor='#9E0000', plot_bgcolor='#9E0000')
     fig.update_yaxes(visible=False)
