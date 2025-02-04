@@ -70,9 +70,11 @@
     color: white;
 }
 
-svg.main-svg{
+.js-plotly-plot .plotly div{
     color: white;
 }
+
+
 
 .tooltip {
     position: relative;
