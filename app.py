@@ -103,7 +103,7 @@ with col5:
     fig.update_layout(font={'family':'Arial','size': 16, 'color': 'White'}, separators=".,", showlegend = False)
     fig.update_layout(paper_bgcolor='#9E0000', plot_bgcolor='#9E0000')
     fig.update_yaxes(visible=False)
-    fig.update_xaxes(title = ' ', color= 'White')
+    fig.update_xaxes(title = ' ', color= 'ffffff')
     fig.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
     st.plotly_chart(fig, use_container_width=True)
 with col6:  
@@ -112,7 +112,7 @@ with col6:
     fig.update_layout(font={'family':'Arial','size': 16, 'color': 'White'}, separators=".,", showlegend = False)
     fig.update_layout(paper_bgcolor='#9E0000', plot_bgcolor='#9E0000')
     fig.update_yaxes(visible=False)
-    fig.update_xaxes(title = ' ', color= 'White')
+    fig.update_xaxes(title = ' ', color= 'ffffff')
     fig.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
     st.plotly_chart(fig, use_container_width=True)
 
@@ -142,8 +142,8 @@ fig.update_layout(title_text = 'Entradas x Saídas por Ano', title_xref='paper',
 fig.update_layout(font={'family':'Arial','size': 16, 'color': 'White'} ,separators=".,", autotypenumbers='strict')
 fig.update_layout(yaxis = dict (showgrid = True, gridcolor='grey'), paper_bgcolor='#9E0000', plot_bgcolor='#9E0000')
 fig.update_layout(showlegend = True, legend_title=' ', legend_font_color='White')
-fig.update_yaxes(title = ' ', color= 'White')
-fig.update_xaxes(title = ' ', color= 'White' )
+fig.update_yaxes(title = ' ', color= 'ffffff')
+fig.update_xaxes(title = ' ', color= 'ffffff' )
 st.plotly_chart(fig, use_container_width=True)
 
 
